@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>2.11</version>
+    <version>4.88</version>
     <relativePath />
   </parent>
   <artifactId>buildrotator</artifactId>
@@ -13,9 +13,8 @@
   <packaging>hpi</packaging>
 
   <properties>
-    <jenkins.version>1.625.3</jenkins.version>
-    <java.level>7</java.level>
-    <jenkins-test-harness.version>2.1</jenkins-test-harness.version>
+    <jenkins.version>2.462.3</jenkins.version>
+    <jenkins-test-harness.version>2225.v04fa_3929c9b_5</jenkins-test-harness.version>
   </properties>
 
   <name>Build Rotator</name>
@@ -28,16 +27,8 @@
     </license>
   </licenses>
 
-  <developers>
-    <developer>
-      <id>Jimilian</id>
-      <name>Akbashev Alexander</name>
-      <email>alexander.akbashev@here.com</email>
-    </developer>
-  </developers>
-
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/buildrotator-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/buildrotator-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/buildrotator-plugin.git</developerConnection>
     <url>http://github.com/jenkinsci/buildrotator-plugin</url>
   </scm>
